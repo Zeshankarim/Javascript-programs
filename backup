@@ -53,14 +53,3 @@ var yah = "Yah! I can write HTML content through JavaScript";
 document.write(yah);
 
 alert('"_________@&$#_________"');
-
-// CHAPTER 3  --------------------------------------------------------------------------
-// Q1 to Q4 Answers
-var age="22";
-alert("I am "+ age + " years old");
- var visitors=10;
- alert("You have visited this site " + visitors + " times");
- var birthYear=1997;
- document.write('My birth year is ' + birthYear +' Data type of my declared variable is number'); 
-
-
