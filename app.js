@@ -61,6 +61,32 @@ alert("I am "+ age + " years old");
  var visitors=10;
  alert("You have visited this site " + visitors + " times");
  var birthYear=1997;
- document.write('My birth year is ' + birthYear +' Data type of my declared variable is number'); 
+ document.write('My birth year is ' + birthYear  + ' <br/> Data type of my declared variable is number'); 
 
 
+
+// CHAPTER 4 --------------------------------------------------------------------------
+// Answer Q1 to Q3
+var a,b,c;
+// legal
+var c;
+var d;
+var e;
+var f;
+var g;
+// illegal
+// var 1a;
+// var 2a;
+// var #a;
+// var @#a;
+// var !#a;
+var ist="numbers";
+var second="$ and_";
+var third=".For example: ";
+var forth="$my_1st variable";
+ 
+document.write("Rules for naming JS variables <br/>"); 
+document.write("Variable names only contain" + ist +second + third + "<br/> and "+ forth);
+document.write(" Variables must begin with a <br/>");
+document.write(" Variable names are case <br/>");
+document.write("Variable names should not be JS");
