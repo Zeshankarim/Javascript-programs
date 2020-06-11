@@ -63,9 +63,7 @@ alert("I am "+ age + " years old");
  var birthYear=1997;
  document.write('My birth year is ' + birthYear  + ' <br/> Data type of my declared variable is number'); 
 
-
-
-// CHAPTER 4 --------------------------------------------------------------------------
+ // CHAPTER 4 --------------------------------------------------------------------------
 // Answer Q1 to Q3
 var a,b,c;
 // legal
@@ -84,9 +82,42 @@ var ist="numbers";
 var second="$ and_";
 var third=".For example: ";
 var forth="$my_1st variable";
+var dolr="$ or_";
+var example="For example : $name ";
+var nam="_name or name";
+
  
 document.write("Rules for naming JS variables <br/>"); 
-document.write("Variable names only contain" + ist +second + third + "<br/> and "+ forth);
-document.write(" Variables must begin with a <br/>");
-document.write(" Variable names are case <br/>");
-document.write("Variable names should not be JS");
+document.write("Variable names only contain" + ist +second + third + " and "+ forth);
+document.write("<br/> Variables must begin with a letter"+ dolr + example+ nam +"<br/>");
+document.write(" Variable names are case sensitive <br/>");
+document.write("Variable names should not be JS keyword");
+
+
+// chapter 5   --------------------------------------------------------------
+var a=3;
+var b=5;
+var c=a+b;
+var d=a*b;
+var e=a/b;
+var f=a%b;
+document.write("Sum of " + a +" and "+ b +" is "+ c +"<br/>");
+document.write("Multiplication of " + a +" and "+ b +" is "+ d + "<br/>");
+document.write("Division of " + a +" and "+ b +" is "+ e + "<br/>");
+document.write("Modlus of " + a +" and "+ b +" is "+ f);
+
+var variable="zeshan";
+document.write("<br/> Value after variable declaration is: "+variable);
+var varr=5;
+document.write(" <br/> Initial value : " + varr);
+var varrr= varr+1;
+document.write(" <br/> Value after increment is  : " + varrr);
+var varrrr= varrr+7;
+document.write("<br/>Value after addition is: " + varrrr);
+var dec=varrrr-1;
+document.write("<br/>Value after decrement is: " + dec);
+var remi=dec %3;
+document.write("<br/>The remainder is: " + remi);
+
+
+
