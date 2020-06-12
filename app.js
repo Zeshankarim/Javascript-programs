@@ -119,5 +119,92 @@ document.write("<br/>Value after decrement is: " + dec);
 var remi=dec %3;
 document.write("<br/>The remainder is: " + remi);
 
+// Q4
+var ticketPrice=600;
+var buyingTickets=5;
+var totall=ticketPrice*buyingTickets;
+document.write(" <br/>Total cost to buy"+ buyingTickets +" tickets to a movie is "+ totall+"PKR");
+// Q5
+document.write("<br/>Table of 4");
+var firstNum=4;
+var secondd=1;
+var thirdd=2;
+var fourthh=3;
+var fifthh=4;
+var sixthh=5;
+var seventh=6;
+var eighthh=7;
+var ninthh=8;
+var tenthh=9;
+var elevethh=10;
+document.write("<br/>"+ firstNum + "x" + secondd + "=" + secondd*firstNum );
+document.write("<br/>"+ firstNum + "x" + thirdd+ "=" + thirdd*firstNum );
+document.write("<br/>"+ firstNum + "x" + fourthh+ "=" + fourthh*firstNum );
+document.write("<br/>"+ firstNum + "x" + fifthh+ "=" + fifthh*firstNum );
+document.write("<br/>"+ firstNum + "x" + sixthh+ "=" + sixthh*firstNum );
+document.write("<br/>"+ firstNum + "x" + seventh+ "=" + seventh*firstNum );
+document.write("<br/>"+ firstNum + "x" + eighthh+ "=" + eighthh*firstNum );
+document.write("<br/>"+ firstNum + "x" + ninthh+ "=" + ninthh*firstNum );
+document.write("<br/>"+ firstNum + "x" + tenthh+ "=" + tenthh*firstNum );
+document.write("<br/>"+ firstNum + "x" + elevethh+ "=" + elevethh*firstNum );
+// Q6
 
+var calsius=25;
+var foreheight=(calsius*9/5)+32;
+document.write("<br/>"+ calsius+" is "+foreheight);
+var forenhig=70;
+var C =(forenhig-32)*5/9;
+document.write("<br/>"+forenhig+" is " +C);
+ 
+// Q7
+var priceOfItem=650;
+var priceOfItem2=100;
+var orderdQuatity1=3;
+var orderdQuatity2=7;
+var shippigCharges=100;
+document.write("<br/>Shipping cart <br/>")
+document.write("<br/> price of item 1 is"+ priceOfItem);
+document.write("<br/>Quantity of item 1 is "+ orderdQuatity1)
+document.write("<br/>price of item 2 is"+priceOfItem2 );
+document.write("<br/>Quantity of item 1 is"+ orderdQuatity2);
+document.write("<br/>Shipping charges "+ shippigCharges)
+tottal=priceOfItem*orderdQuatity1+priceOfItem2*orderdQuatity2+shippigCharges;
+document.write("<br/> Total cost of order is "+tottal+"<br/>");
+// Q8
+var totalMarks=980;
+var obtmarks=804;
+var percentage=obtmarks/totalMarks*100;
+document.write("Total marks: "+totalMarks+"<br/>"+"Marks obtain : "+obtmarks+"<br/>"+"Percetage: "+  percentage);
+
+// Q9
+var us$= 10*104.80 ;
+var riyal=25 *28;
+var convert=riyal+us$;
+document.write("<br/> Total currecy in PKR "+convert);
+
+
+// Q10
+var first=10;
+var sec= first+5*10/2;
+document.write(sec);
+// Q11
+var currentYear=2020;
+var birthYear=1997;
+var age=currentYear-birthYear;
+document.write("<br/>current Year:"+currentYear+"<br/> Birth year"+birthYear+"<br/> Your age is "+ age);
+
+// Q12
+var radius=20;
+var circum=2*3.142*radius;
+document.write("<br/> the Circumferece of a circle is "+circum);
+var area=3.142*radius;
+document.write("<br/> the area is "+area); //valur depend on value of r2
+
+// Q13
+var snack="chocolate chip"
+var age=15;
+var maxage= 65;
+var perDay=3;
+var need=(maxage-age)*perDay;
+document.write( "<br/>You will need "+need+" "+snack+" to last you until the ripe old age of " + maxage);
 
