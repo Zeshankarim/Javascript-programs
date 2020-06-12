@@ -208,3 +208,67 @@ var perDay=3;
 var need=(maxage-age)*perDay;
 document.write( "<br/>You will need "+need+" "+snack+" to last you until the ripe old age of " + maxage);
 
+// Chapter 6-9 -------------------------------------
+// Q1
+var a=prompt("Enter a number","Number");
+
+document.write("<br/>The value of a is: "+ a+ "<br/");
+
+
+document.write("<br/> <br/>The value of ++a is: "+ ++a);
+document.write("<br/>The value of a is: "+ a);
+
+document.write("<br/> <br/>The value of a++ is: "+ a++);
+document.write("<br/>The value of a is: "+ a);
+
+document.write("<br/> <br/>The value of --a is: "+ --a);
+document.write("<br/>The value of a is: "+ a);
+
+document.write("<br/> <br/>The value of a-- is: "+ a--);
+document.write("<br/>The value of a is: "+ a);
+
+// Q2
+var a=2,b=1;
+document.write("<br/>"+ --a +"<br/>");
+document.write("<br/>"+ --a- --b+ ++b +"<br/>");
+document.write("<br/>"+  --a- --b+ ++b+b-- +"<br/>");
+
+var result=--a- --b+ ++b+b--;
+document.write("<br/>"+result );
+
+// Q3
+
+var name=prompt("Enter your Name","Name")
+document.write("<br/> Welcome "+ name);
+
+// Q5
+var input=prompt("Enter a umber",5)
+document.write("<br/>"+input*1+"<br/>");
+document.write(input*2+"<br/>");
+document.write(input*3+"<br/>");
+document.write(input*4+"<br/>");
+document.write(input*5+"<br/>");
+// Q6  +sign convert integer
+var  sub1=prompt("Enter a 1st  subject name","English");
+var marks1=+prompt("Enter Obtain Marks");
+var  sub2=prompt("Enter a Secod subject name","math");
+var marks2=+prompt("Enter Obtain Marks");
+var  sub3=prompt("Enter a third subject name","Urdu");
+var marks3=+prompt("Enter Obtain Marks");
+
+var totalMarks=100;
+
+
+document.write("<br/>"+"Subj "+"    "+ "T.M"+"    "+"O.M"+ "    "+"%");
+document.write("<br/>"+sub1+" " +totalMarks+" "+marks1+ " "+marks1/100*100);
+document.write("<br/>"+sub2+" " +totalMarks+" "+marks2+ " "+marks2/100*100);
+document.write("<br/>"+sub3+" " +totalMarks+" "+marks3+ " "+marks3/100*100);
+
+var totalMarkks = 300;
+var totalObtMarkss = marks1+marks2+marks3;
+
+var totalper = totalObtMarkss/totalMarkks*100;
+document.write("<br/>"+"total "+totalMarkks+" "+totalObtMarkss +" " +totalper);
+
+
+
