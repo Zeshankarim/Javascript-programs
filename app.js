@@ -371,11 +371,94 @@ if (c === 14) {
         alert("False");
     }  
 
+    
+// Q6
+var chemistry=+prompt("Enter your chemistry marks");
+var math=+prompt("Enter your Math marks");
+var english=+prompt("Enter your Eglish marks");
+var totalObt=chemistry+math+english;
+var totalMarks=300;
+document.write("Total marks "+totalMarks+"<br/>");
+document.write("Obtain marks "+totalObt+"<br/>");
+var percentage=totalObt/totalMarks*100;
+document.write("Percentage "+percentage+"<br/>");
+
+if(percentage >=80){
+    document.write("Grade : A-one <br/> Remarks : Excellent")
+}
+if(percentage >=70){
+    document.write("Grade : A <br/> Remarks : Good")
+}
+if(percentage >=60){
+    document.write("Grade : B <br/> Remarks : You need to improve")
+}
+else{
+    document.write("Grade : fail <br/> Remarks : Sorry")
+
+}
+
+// Q7
+var guess=+prompt("Enter your secret number 0-10");
+if(guess===5){
+    document.write('"Bingo! Correct answer"');
+}
+else if(guess===4){
+    document.write('“Close enough to the correct answer”');
+}
+else{
+    document.write('“No match”');
+
+}
+
+// Q8
+var num=+prompt("Enter a number");
+var modlus=num%3;
+if (modlus===0){
+    document.write(" completly divisible by 3")
+}
+else{
+    document.write(" It is not divisible by 3")
+}
+
+// Q9
+var num=+prompt("Enter a number");
+var modlus=num%2;
+if (modlus===0){
+    document.write("Even number")
+}
+else{
+    document.write("Odd number")
+}
+
+// Q10
+var t=+prompt("Enter a Temperature value");
+if (t>40){
+    document.write("Its too hot outside");
+}
+else if (t>30){
+    document.write("The weather today is Normal");
+}
+else if (t>20){
+    document.write("Today's weather is cool");
+}
+else if (t>10){
+    document.write("OMG! Today’s weather is so Cool");
+}
 
 
-
-
-// var chemistry=+prompt("Enter your chemistry marks");
-// var math=+prompt("Enter your Math marks");
-// var english=+prompt("Enter your Eglish marks");
-// if(){}
+// Q11
+var first=+prompt("Enter first num");
+var second=+prompt("Enter second num");
+var operatur=prompt(" Operation (+, -, *, /, %) ");
+if(operatur==="+"){
+    document.write(first+second);
+}
+else if(operatur==="*"){
+    document.write(first*second);
+}
+else if(operatur==="/"){
+    document.write(first/second);
+}
+else if(operatur==="%"){
+    document.write(first%second);
+}
