@@ -619,8 +619,34 @@
 // document.write("Out:<br/>"+devices[3]+"<br/>"+"Out:<br/>"+devices[2]+"<br/>"+"Out:<br/>"+devices[1]+"<br/>"+"Out:<br/>"+devices[0]+"<br/>");
 
 // Q15
-var phoe=[ Apple, Samsung, Motorola, Nokia, Sony, Haier];
+// var phoe=[ Apple, Samsung, Motorola, Nokia, Sony, Haier];
 
 
-// Chapter 17-20
-Q1 
+// // Chapter 17-20 ---------------------------------------------------------------
+// Q1 
+// var multidimention=[  [],[],[] ];
+
+// Q2
+// var multi=[ [0,1,2,3],[1,0,1,2],[2,1,0,1] ]
+// for(var i=0;i<=3;i++){
+//     for(var x=1;x<=3;x++){
+//     document.write(multi[i][x]+" ");
+//     }
+//     document.write("<br/>");
+// }
+
+// Q3
+// for(a=1;a<=10;a++){
+// document.write(a+"<br/>");
+// }
+
+// Q4
+// var num1=+prompt("Enter a number to to show its multiplication table");
+// var num2=+prompt("Enter length multiplication table");
+// for(var a=1;a<=num2;a++){
+//     document.write(num1+" x "+a+ " = "+ +num1*a+"<br>");
+// }
+
+// Q5
+
+
