@@ -648,5 +648,105 @@
 // }
 
 // Q5
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for(a=0;a<=4;a++) {
+//     document.write("<br/>"+fruits[a]+"<br>");
+//     document.write("<br>Element at index " +a+" is "+fruits[a])
+// }
 
+// Q6 a
+// for(a=1;a<=15;a++){
+//     document.write(a+",");
+// }
 
+// Q6 b
+// for(var a=10;a>=1;a--){
+//     document.write(a+",");
+// }
+
+// Q6 c
+// for(var a=0;a<=20;a+=2){
+//     document.write(a+",");
+// }
+
+// Q6 d
+// for(var a=1;a<=20;a+=2){
+//         document.write(a+",");
+//     }
+
+// Q6 e
+// for(var a=2;a<=20;a+=2){
+//         document.write(a+"k,");
+//     }
+
+// Q7
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"]; 
+// var avalable=prompt("Welcome to ABC bakery,What do you want to order sir/ma'am");
+//     if(avalable===A[0] || avalable===A[1] ||avalable===A[2] || avalable===A[3] || avalable===A[4] ){
+//     document.write("<br>"+avalable+" is available at index in our bakery <br>");    
+//     } 
+// else{
+//     document.write("We are sorry."+avalable+" is not available in our bakery");
+// }
+
+// Q8
+// var A = [24, 53, 78, 91, 12];
+// if(A[0]>A[1]){
+//     A.splice(1,2);
+// }
+// else if(A[1]>A[0]){
+//     A.splice(0,1);
+// }
+// if(A[0]>A[1]){
+//     A.splice(1,2);
+
+// }
+// else if(A[1]>A[0]){
+//     A.splice(0,1);
+// }
+// if(A[0]>A[1]){
+//     A.splice(1,2);
+// }
+// else if(A[1]>A[0]){
+//     A.splice(0,1);
+// }
+// if(A[0]>A[1]){
+//     A.splice(1,2);
+// }
+// else if(A[1]>A[0]){
+//     A.splice(0,1);
+// }
+// document.write("Largest number is "+A);
+
+// Q9
+// var A = [24, 53, 78, 91, 12];
+// if(A[0]<A[1]){
+//     A.splice(1,2);
+// }
+// else if(A[1]<A[0]){
+//     A.splice(0,1);
+// }
+// if(A[0]<A[1]){
+//     A.splice(1,2);
+// }
+// else if(A[1]<A[0]){
+//     A.splice(0,1);
+// }
+// if(A[0]<A[1]){
+//     A.splice(1,2);
+// }
+// else if(A[1]<A[0]){
+//     A.splice(0,1);
+// }
+// if(A[0]<A[1]){
+//     A.splice(1,2);
+// }
+// else if(A[1]<A[0]){
+//     A.splice(0,1);
+// }
+// document.write("Smallest number is "+A);
+
+// Q10
+// for(var a=5;a<=100;a+=5){
+//     document.write(a+", ");
+// }
