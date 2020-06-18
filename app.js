@@ -764,3 +764,24 @@
 // document.write("My favorite phone is: "+ favorite+"<br/> Length of string: "+str);
 
 // Q3
+// var word="pakistani";
+// var ind=word.indexOf("n");
+// document.write("Index of n: "+ind);
+
+// Q4 
+// var word="Hello World";
+// var ind=word.lastIndexOf("l");
+// document.write("Index of I: "+ind);
+
+// Q5
+// var word="pakistani";
+// var ind=word.charAt(3);
+// document.write("Character at idex 3: "+ind);
+
+// Q6
+var firstName = prompt("Enter your first name");
+var LastName = prompt("Enter your last name");
+var fullName=firstName + LastName;
+document.write("Welcome " +fullName);
+
+// Q7
