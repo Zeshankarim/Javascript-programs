@@ -750,3 +750,17 @@
 // for(var a=5;a<=100;a+=5){
 //     document.write(a+", ");
 // }
+
+// chapter 21 -25
+// Q1
+// var firstName = prompt("Enter your first name");
+// var LastName = prompt("Enter your last name");
+// var fullName=firstName + LastName;
+// document.write("Welcome " +fullName);
+
+// Q2
+// var favorite=prompt("What is your favourite mobile phoe model ");
+// var str=favorite.length;
+// document.write("My favorite phone is: "+ favorite+"<br/> Length of string: "+str);
+
+// Q3
