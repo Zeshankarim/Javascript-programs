@@ -779,9 +779,38 @@
 // document.write("Character at idex 3: "+ind);
 
 // Q6
-var firstName = prompt("Enter your first name");
-var LastName = prompt("Enter your last name");
-var fullName=firstName + LastName;
-document.write("Welcome " +fullName);
+// var firstName = prompt("Enter your first name");
+// var LastName = prompt("Enter your last name");
+// var fullName=firstName + LastName;
+// document.write("Welcome " +fullName);
 
 // Q7
+// var city="hyderabad ";
+// var rep=city.replace(/hyderabad/g,"Islamabad");
+// document.write("After replacement: "+rep);
+
+// Q8
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var neww=message.replace(/and/g,"&")
+// document.write(neww);
+
+// Q9
+// var num=472;
+// var str=num.toString();
+// var newNum=Number(num);
+// document.write("Value:"+str+"<br/> Type: String"+"<br/> Value "+newNum+"<br/> Type: nwmbwr");
+
+// Q10
+// var input=prompt("Enter text");
+// var convert=input.toUpperCase();
+// document.write(convert);
+
+// Q11
+var input=prompt("Enter text");
+var convert=input.slice(0,1);
+var upper=convert.toUpperCase();
+var remaining=input.slice(1);
+var lowerr=remaining.toLocaleLowerCase();
+document.write(upper+lowerr);
+
+
