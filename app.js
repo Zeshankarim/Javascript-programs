@@ -1,4 +1,4 @@
-// // A Smarter Way To Learn Javascript (BOOK)?
+// // A Smarter Way To Learn Javascript (BOOK)
 // //              CHAPTER 1----------------------------------------------------------------------------------------------
 
 // // 1. Write a script to greet your website visitor using JS alert box. 
@@ -806,11 +806,40 @@
 // document.write(convert);
 
 // Q11
-var input=prompt("Enter text");
-var convert=input.slice(0,1);
-var upper=convert.toUpperCase();
-var remaining=input.slice(1);
-var lowerr=remaining.toLocaleLowerCase();
-document.write(upper+lowerr);
+// var input=prompt("Enter text");
+// var convert=input.slice(0,1);
+// var upper=convert.toUpperCase();
+// var remaining=input.slice(1);
+// var lowerr=remaining.toLocaleLowerCase();
+// document.write(upper+lowerr);
+
+// Q12
+// var num = 35.36;
+// var a=num.toString();
+// var b=a.slice(0,2);
+// var c=a.slice(3,5);
+// document.write("Result "+b+c);
+
+// Q13
+// var userName=prompt("Enter your Name ");
+// for(i=0;1<userName.length;i++){
+//     if(userName.slice(i,i+1)==="!" || userName.slice(i,i+1)==="," || userName.slice(i,i+1)==="." ||userName.slice(i,i+1)==="@"){
+// alert("Enter a valid user name");
+//     }
+// }
+// Q14
+// var A =["cake","apple pie","coolie","chips","patties"];
+// var b=prompt("Enter to ABC Bakery.What do you want to order sir/ma'am");
+// for(var i=0;i<A.length;i++){
+// if(b===A[i]){
+// document.write(A[i]+" is available at idex in our bakery");
+
+// }
+// else if(b!==A[i]){
+// document.write("We are sorry."+b+"is not avalable in our bakery ");
+
+// }
+
+// }
 
 
