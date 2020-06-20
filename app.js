@@ -828,18 +828,18 @@
 //     }
 // }
 // Q14
-// var A =["cake","apple pie","coolie","chips","patties"];
-// var b=prompt("Enter to ABC Bakery.What do you want to order sir/ma'am");
-// for(var i=0;i<A.length;i++){
-// if(b===A[i]){
-// document.write(A[i]+" is available at idex in our bakery");
+var A =["cake","apple pie","coolie","chips","patties"];
+var b=prompt("Enter to ABC Bakery.What do you want to order sir/ma'am");
+for(var i=0;i<A.length;i++){
+if(b===A[i]){
+document.write(A[i]+" is available at idex in our bakery");
 
-// }
-// else if(b!==A[i]){
-// document.write("We are sorry."+b+"is not avalable in our bakery ");
+}
+else if(b!==A[i]){
+document.write("We are sorry."+b+"is not avalable in our bakery ");
 
-// }
+}
 
-// }
+}
 
 
