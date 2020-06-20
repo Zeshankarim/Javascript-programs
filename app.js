@@ -827,19 +827,48 @@
 // alert("Enter a valid user name");
 //     }
 // }
+
 // Q14
-var A =["cake","apple pie","coolie","chips","patties"];
-var b=prompt("Enter to ABC Bakery.What do you want to order sir/ma'am");
-for(var i=0;i<A.length;i++){
-if(b===A[i]){
-document.write(A[i]+" is available at idex in our bakery");
+// var A =["cake","apple pie","coolie","chips","patties"];
+// var b=prompt("Enter to ABC Bakery.What do you want to order sir/ma'am");
+// for(var i=0;i<A.length;i++){
+// if(A[i]===b){
+// alert(b+" is available at index "+A.indexOf(A[i])+" in our bakery");
+// }
 
-}
-else if(b!==A[i]){
-document.write("We are sorry."+b+"is not avalable in our bakery ");
+// else{
+//     alert("We are sorry "+b+"is not available in our bakery");
+// }
+// break;
+// }
 
-}
+// Q15
+// var password=prompt("enter a password");
+// for(var i=1;i<=6;i++){
+// if(password>i){
+// alert("password atleast six characters");
+// }
+// break;
+// }
 
-}
+// Q16
+// var university = "University of Karachi"; 
+// var a=university.split("");
+// for(var i=0;i<university.length;i++){
+//     document.write(a[i]+"<br/>");
+// }
+
+// Q17
+// var a=prompt("Enter a word");
+// var b=a.slice(-1);
+// document.write(b);
+
+// Q18
+// var a= "the quick brown fox jumps over the lazy dog";
+// var b="the";
+// var c=a.split(b).length-1;
+// document.write(c);
+
+
 
 
